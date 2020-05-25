@@ -76,7 +76,7 @@ public class LatticeMeasurements {
         } else if (type.equals("Coverage")) {
 //Union Case        
 
-            System.out.println("Select the Dataset: EntitiesDesc, LiteralsDesc, TriplesDesc, EntitiesSemiDesc,EntitiesMedium,EntitiesSemiAsc,EntitiesAsc");
+            System.out.println("Select the Dataset: EntitiesDesc, LiteralsDesc, TriplesDesc");
             String dataset = keyboard.next();
             String unionDataset = "datasets/coverage/" + dataset + ".txt";
 
